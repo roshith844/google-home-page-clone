@@ -29,3 +29,20 @@ a:hover{
      padding: 5px;
 }
 /* navigatiion bar end */
+.content{
+     
+     margin: 0 auto;
+     
+     height : 150px; 
+     width: 300px;
+}
+.image{
+     display: flex;
+     justify-content: center;
+
+}
+.image img{
+
+     width: 90px;
+     height: 300%;
+}
