@@ -1,0 +1,31 @@
+/* navigatiion bar */
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  height: 20px;
+}
+a{
+     font-size: 1px;
+     font-family: Arial, sans-serif;
+     color: black;
+     text-decoration: none;
+}
+a p{
+     margin-bottom: 4px;
+}
+a:hover{
+     text-decoration: underline;
+}
+.nav-icon:hover{
+     background-color: rgba(168, 159, 159, 20%);
+     border-radius: 50%;
+     
+}
+.nav-icon img{
+     height: 7px;
+     width: 7px;
+     padding: 5px;
+}
+/* navigatiion bar end */
