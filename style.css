@@ -87,3 +87,12 @@ input{
      border-width: 0;
      border: 0;
 }
+/*button*/
+button{
+     background-color: #f8f9fa;
+     border: none;
+     margin: 25px;
+     padding: 20px;
+     height: 20px;
+}
+
