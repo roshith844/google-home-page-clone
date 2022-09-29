@@ -58,7 +58,9 @@ a:hover{
 
 }
 .search-bar:hover{
-     border: 2px solid grey;
+     -moz-box-shadow: 0 0 5px #999;
+     -webkit-box-shadow: 0 0 5px #999;
+     box-shadow: 0 0 5px #999;
 }
 .search-icon{
      width: 10%;
@@ -89,10 +91,26 @@ input{
 }
 /*button*/
 button{
-     background-color: #f8f9fa;
+   background-color: #f8f9fa;
      border: none;
-     margin: 25px;
-     padding: 20px;
-     height: 20px;
+    margin-top: 25px;
+     height: 36px;
+     width: 127px;
+     border-radius: 5px;
+
+    
+    
+}
+button:hover{
+     -moz-box-shadow: 0 0 5px #999;
+     -webkit-box-shadow: 0 0 5px #999;
+     box-shadow: 0 0 5px #999;
+}
+.buttons{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
 }
 
