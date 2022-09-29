@@ -129,4 +129,7 @@ button:hover{
      padding: 1px;
      text-decoration: none;
 }
+.lang-select a:hover{
+     text-decoration: underline;
+}
 
